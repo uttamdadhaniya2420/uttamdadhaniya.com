@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <!-- Favicons -->
+    <link href="Css File/MasterPage css/assets/img/WebSite Logo.png" rel="icon">
+    <link href="Css File/MasterPage css/assets/img/WebSite Logo.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="Css File/LoginPage Css/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Css File/LoginPage Css/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="Css File/LoginPage Css/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="Css File/LoginPage Css/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="Css File/LoginPage Css/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="Css File/LoginPage Css/assets/css/variables.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="Css File/LoginPage Css/assets/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+    <section id="hero-animated" class="hero-animated d-flex align-items-center" style="min-height:100vh;">
+        <div class="container d-flex justify-content-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="card col-lg-12">
+                <div class="card-body">
+                    <div class="row d-flex justify-content-center align-items-center text-center" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="col-lg-6 mb-4">
+                            <img src="Css File/LoginPage Css/assets/img/smart-lock.png" class="img animated mb-0" style="max-width: 100%; width: 50%;">
+                        </div>
+                        <div class="col-lg-6 d-flex justify-content-center" style="flex-wrap: wrap;">
+                            <div class="text-center col-lg-10 col-12">
+                                <h2 class="mb-5 fs-2" style="color: #284c77;">Create an account</h2>
+                            </div>
+                                
+                            <div class="row g-2 text-start justify-content-center">
+                                <div class="col-lg-10 mt-0 mb-3">
+                                    <span class="form-label fw-bold">User Name</span>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#284c77">
+                                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" class="form-control" name="UserName" id="txt_UserName">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 mt-0 mb-3">
+                                    <span class="form-label fw-bold">Contact No</span>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#284c77">
+                                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+                                            </svg>
+                                        </span>
+                                        <input type="tel" class="form-control" name="Contact" id="txt_Contact">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 mt-0 mb-3">
+                                    <span class="form-label fw-bold">Email</span>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#284c77">
+                                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z" />
+                                            </svg>
+                                        </span>
+                                        <input type="email" class="form-control" name="email" id="txt_Email">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 mt-0 mb-3">
+                                    <span class="form-label fw-bold">Password</span>
+                                    <div class="input-group">
+                                        <span class="input-group-text">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#284c77">
+                                                <path d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z" />
+                                            </svg>
+                                        </span>
+                                        <input type="password" class="form-control" name="password" id="txt_Password">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 mt-0">
+                                    <button class="btn btn-primary col-12" id="Btn_Login">
+                                        <span>Sign Up</span>
+                                    </button>
+                                </div>
+                                <div class="col-10 mb-4 mt-3">
+                                    <p class="small mb-0 text-black">
+                                        Already create account? 
+                                        <a class="fw-bold" href="SignInPage.html">Login account</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <div id="preloader"></div>
+    
+    <!-- Vendor JS Files -->
+    <script src="Css File/LoginPage Css/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Css File/LoginPage Css/assets/vendor/aos/aos.js"></script>
+    <script src="Css File/LoginPage Css/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="Css File/LoginPage Css/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Css File/LoginPage Css/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="Css File/LoginPage Css/assets/vendor/php-email-form/validate.js"></script>
+    
+    <!-- Template Main JS File -->
+    <script src="Css File/LoginPage Css/assets/js/main.js"></script>
+</body>
+</html>
