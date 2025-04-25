@@ -1,7 +1,3 @@
-function LoginClick() {
-    window.location.replace('SignInPage.html');
-  }
-
 document.getElementById('Download_resume').addEventListener('click', function() {
     // URL of the Word file
     let fileUrl = 'MasterPage Css/assets/img/MyResume.pdf';
@@ -22,24 +18,3 @@ document.getElementById('Download_resume').addEventListener('click', function() 
     // Remove the link from the document
     document.body.removeChild(link);
 });
-
-function loginclick(){
-    let UserName = document.getElementById("txt_UserName").value;
-    let Password = document.getElementById("txt_Password").value;
-    if(UserName == ""){
-        document.getElementById("txt_UserName").style.borderColor = "#dc3545";
-        document.getElementById("error_Username").style.display = "block";
-    }
-    else{
-        document.getElementById("txt_UserName").style.borderColor = "";
-        document.getElementById("error_Username").style.display = "none";
-    }
-    if(Password == ""){
-        document.getElementById("txt_Password").style.borderColor = "#dc3545";
-        document.getElementById("error_Password").style.display = "block";
-    }
-    else{
-        document.getElementById("txt_Password").style.borderColor = "";
-        document.getElementById("error_Username").style.display = "none";
-    }
-}
