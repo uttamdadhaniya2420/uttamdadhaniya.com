@@ -1192,7 +1192,7 @@ section {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   /* background: linear-gradient(160deg, #181625, #9cc3dd); */
-  background: linear-gradient(160deg, #181625, #9cc3dd);
+  background: linear-gradient(160deg, #106eea, #29c1ff);
   padding: 15px;
 }
 
